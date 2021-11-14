@@ -1,0 +1,1 @@
+export { IFormText } from "./IFormText";

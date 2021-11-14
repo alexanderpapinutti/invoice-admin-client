@@ -1,0 +1,1 @@
+export { IAlert } from "./IAlert";

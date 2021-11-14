@@ -1,0 +1,10 @@
+.container {
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  .sideMenu {
+    padding-left: 0px;
+    width: 360px;
+  }
+}

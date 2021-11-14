@@ -1,0 +1,19 @@
+.pageContainer {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

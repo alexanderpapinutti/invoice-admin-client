@@ -1,0 +1,52 @@
+@mixin dCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuContainer {
+  background: white;
+  border-right: 2px solid gray;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+
+  .listHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+
+    .title {
+      font-weight: 600;
+    }
+
+    .addButton {
+      @include dCenter;
+      cursor: pointer;
+      text-decoration: none;
+      background-color: red;
+      color: white;
+      height: 40px;
+      width: 180px;
+    }
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .item {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      width: 240px;
+      background-color: brown;
+      margin: 4px;
+    }
+  }
+}
